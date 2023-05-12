@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=Roboto+Mono&family=Sacramento&family=Zeyada&display=swap');
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Zeyada', cursive;
+ */
+*{
+font-family: 'Roboto Mono', monospace;
+}
+.modal-body{
+  background: #f2f3f8;
+  max-height: 65vh;
+  overflow: auto;
+}
+/* .modal ::-webkit-scrollbar-thumb, .tool ::-webkit-scrollbar-thumb, ul ::-webkit-scrollbar-thumb {
+  background-color: #ff6a58;
+  border: 17px solid #deb8b3;
+  border-radius: 8px;
+} */
+.modal-header,.modal-footer{
+  z-index:1;
+  box-shadow: 0 1px 6px 0 rgba(50,50,50,.3);
+}
+.signature-avatar img {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+    border: 2px dashed #0dcaf0;
+    overflow: hidden;
+}
+label{
+  color: grey;
+}
+.input, input {
+    background-color: #fff;
+    border: 1px solid #aeaeb2;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #aeaeb2;
+}

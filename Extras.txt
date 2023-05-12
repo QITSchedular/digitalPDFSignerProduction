@@ -1,0 +1,12 @@
+import React from "react";
+
+const DrawSigTab = () => {
+  return (
+    <div className="initials-tab-content">
+      <h3>Space for keybord inputs of the signature</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  );
+};
+
+export default DrawSigTab;

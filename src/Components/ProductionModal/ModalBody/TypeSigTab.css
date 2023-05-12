@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat&family=Great+Vibes&family=Kristi&family=Reenie+Beanie&family=Roboto+Mono&family=Sacramento&family=Zeyada&display=swap');
+  
+  input[type="radio"]:checked {
+    background-color: #93e026;
+  }
+  .custom-radio-input:focus {
+    box-shadow: none !important; /* Custom focus/active state color */
+    outline: none !important; /* Remove default outline */
+  }
+  
+  .form-check-input:checked {
+    background-color: #93e026;
+    border-color: #93e026;
+}
+li,input[type=radio]:not(:checked) {
+    position: relative;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #f2f3f8;
+}

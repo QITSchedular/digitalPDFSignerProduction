@@ -1,0 +1,31 @@
+.signature__canvas {
+    width: 556px;
+    height: 170px;
+    background: #f6f6f8;
+    border: 1px dashed #f6f6f8;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 992px) {
+    .signature__canvas {
+        width: 280px;
+        height: 170px;
+        background: #f6f6f8;
+        border: 1px dashed #f6f6f8;
+        background-position: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+  }
+@media screen and (max-width: 575px) {
+    .signature__canvas {
+        width: 250px;
+        height: 90px;
+        background: #f6f6f8;
+        border: 1px dashed #f6f6f8;
+        background-position: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+  }

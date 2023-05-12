@@ -1,0 +1,18 @@
+.drop-area{
+  background-color: #ECF2FF;
+}
+
+#img__preview{
+    max-height:210px; 
+ }
+ 
+ .delete-icon {
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   background-color: transparent;
+   border: none;
+   color: #ff0000;
+   cursor: pointer;
+ }
+ 
