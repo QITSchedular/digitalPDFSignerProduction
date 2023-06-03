@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+import { AppContext } from "../../../context/ContextProvider";
 
 export default function ModalBody() {
+  const {contextState, updateContextState} = useContext(AppContext);
+  const[signatureText, setSignatureText] = useState("")
+  const handleChange = async (e) => {
+    const newValue = e.target.value;
+    updateContextState({ inputSignatureText: newValue });
+  };
+  
   return (
     <div className="container-fluid">
       <div className="row">
@@ -26,6 +34,7 @@ export default function ModalBody() {
                   placeholder="Your name"
                   defaultValue="Qitschedular"
                   maxLength="45"
+                  onChange={handleChange}
                 />
               </div>
             </div>

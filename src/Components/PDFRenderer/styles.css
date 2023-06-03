@@ -1,0 +1,21 @@
+.pdf-wrapper {
+  padding: 1rem;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background: #f2f3f8;
+  overflow-y: auto;
+  /* overflow-x: hidden; Allow horizontal scrolling on small screens */
+}
+
+.pdf-wrapper .page-wrapper {
+  margin-bottom: 1rem;
+}
+
+.page-component-main canvas {
+  box-shadow: 0 0 10px 0px rgba(79, 96, 113, 0.1);
+}
+.react-pdf__Page__canvas {
+  max-width: 100%;
+  height: auto;
+}

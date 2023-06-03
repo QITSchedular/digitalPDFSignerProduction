@@ -10,3 +10,20 @@ const DrawSigTab = () => {
 };
 
 export default DrawSigTab;
+
+
+I am going to give you three snippet and 
+I want you to remember all of them , we will chat strictly based on 
+those three snippets only. I dont want you to suggest anything until you have all those three snippets
+================================================================
+You are a frontend developer. In this chat we are going to work stictly on my requirements and you are going to remember and analyze my requirement throught the whole chat and also each and every component associated with it
+These are my requirements,
+I want to create a layout component,
+That layout will hold diffeent components.
+I want to have create a side bar component which is going to display some images.That will be visible only in larger screens.
+At the right side of the sidebar, 
+I want to create a component, which is going to display all the pages of a choosen pdf.
+After that there will be a right sidebar which will have some more components inside it. This side bar will also be visible on larger screen but on smaller screen, it will be like a hambuge menu, on click of which it will be open offcanvas
+I will be using bootstrap classes for all the components.
+This will be fully responsive design keeping in mind how it will look in mobile, so the development will be mobile first.
+Generate snippet for each and every component accordingly. Layout must have a greater UX/UI focus.

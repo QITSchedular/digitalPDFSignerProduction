@@ -1,10 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import './ModalHeader.css'
+import "./ModalHeader.css";
 import ModalBody from "../ModalBody/ModalBody";
 import ModalNavTabs from "../ModalBody/ModalNavTabs";
-
 
 const SignerModal = () => {
   //open the modal on page load instea of having to click the button
@@ -19,15 +18,15 @@ const SignerModal = () => {
   // }, []);
   return (
     <>
-     {/* Button trigger modal */}
+      {/* Button trigger modal */}
       <button
-     type="button"
-     className="btn btn-primary"
-     data-bs-toggle="modal"
-     data-bs-target="#exampleModal"
-   >
-Launch demo modal
-</button>
+        type="button"
+        className="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Launch demo modal
+      </button>
 
       {/* Modal */}
       <div
@@ -42,7 +41,10 @@ Launch demo modal
       >
         <div className="modal-dialog">
           <div className="modal-content">
-            <div className="modal-header" style={{ backgroundColor: "#383e45", color: "white" }}>
+            <div
+              className="modal-header"
+              style={{ backgroundColor: "#383e45", color: "white" }}
+            >
               {/* Modal Header */}
               <h1 className="modal-title fs-5" id="exampleModalLabel">
                 Set the signature details
@@ -66,11 +68,15 @@ Launch demo modal
                 type="button"
                 className="btn btn-outline-primary btn-lg"
                 data-bs-dismiss="modal"
-                style={{color:"rgb(56, 62, 69)"}}
+                style={{ color: "rgb(56, 62, 69)" }}
               >
                 Cancel
               </button>
-              <button type="button" className="btn btn-lg" style={{background:"#0d6efd", color:"white"}}>
+              <button
+                type="button"
+                className="btn btn-lg"
+                style={{ background: "#0d6efd", color: "white" }}
+              >
                 Apply
               </button>
             </div>
@@ -78,6 +84,6 @@ Launch demo modal
         </div>
       </div>
     </>
-  )
+  );
 };
 export default SignerModal;

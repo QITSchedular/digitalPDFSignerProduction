@@ -40,7 +40,7 @@ const DrawSigTab = () => {
 
   return (
     <div className="container mt-4 signature-tab-content" ref={containerRef}>
-      {isLoading ? ( // Show loader component if still loading
+      {isLoading === true ? ( // Show loader component if still loading
         <FullScreenLoader />
       ) : (
         <div
@@ -52,7 +52,9 @@ const DrawSigTab = () => {
           <SignaturePad
             ref={sigCanvas}
             canvasProps={{
-              className: "signature__canvas"
+              className: "signature__canvas",
+              width:576,
+              height:170
             }}
           />
 

@@ -1,0 +1,20 @@
+/* Layout.css */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.toolbar {
+    border: 1px solid red;
+  }
+  
+  .sidebar {
+    border: 1px solid green;
+  }
+  
+  .main {
+    border: 1px solid blue;
+  }
+  
+  

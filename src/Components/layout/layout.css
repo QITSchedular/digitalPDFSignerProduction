@@ -1,0 +1,10 @@
+.--pad {
+  max-width: 100%;
+  margin: 80px auto 0 auto;
+  padding: 0 20px;
+}
+@media (max-width: 991.98px) {
+  .--pad {
+    margin: 56px auto 0 auto;
+  }
+}

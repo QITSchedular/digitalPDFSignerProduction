@@ -1,0 +1,33 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+#sidebar{
+    height: 100vh;
+    background: inherit;
+}
+ul{
+    overflow-y: auto;
+}
+.preview__page{
+    position: relative;
+    width: 94px;
+    height: 132;
+    text-align: center;
+    margin: 12px auto;
+    font-size: 12px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    padding: 3px;
+    z-index: 50;
+}
+.pdf__thumbnail{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    image-orientation: from-image;
+    vertical-align: middle;
+    background: none repeat scroll 0 0;
+    border: 0;
+    object-fit: cover;
+}
